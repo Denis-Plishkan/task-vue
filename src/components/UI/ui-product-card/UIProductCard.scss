@@ -1,0 +1,65 @@
+@use '@/assets/style/variable' as *;
+
+.product-card {
+  display: flex;
+  align-items: center;
+  gap: 40px;
+  margin-bottom: 16px;
+
+  &__right-title {
+    font-weight: 600;
+    font-size: 20px;
+    margin-bottom: 10px;
+  }
+
+  &__right-description {
+    max-width: 940px;
+    width: 100%;
+    margin-bottom: 10px;
+    color: $light-black;
+  }
+
+  &__right-discounts {
+    display: flex;
+    align-items: center;
+    gap: 40px;
+    margin-bottom: 10px;
+  }
+
+  &__right-discount {
+    color: $red-color-50;
+    font-weight: 500;
+  }
+
+  &__right-brand,
+  &__right-price,
+  &__rating {
+    font-size: 18px;
+    font-weight: 600;
+    color: $light-blue;
+  }
+
+  &__rating {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+    svg {
+      width: 20px;
+      height: 20px;
+    }
+  }
+
+  &__right-infos {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+  }
+
+  &__category {
+    color: $green-color;
+    background: $black-color;
+    border-radius: 20px;
+    padding: 6px 20px;
+  }
+}

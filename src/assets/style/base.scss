@@ -1,0 +1,24 @@
+@use 'reset';
+@use '@/assets/style/variable' as *;
+
+body {
+  font-weight: normal;
+  font-family: Montserrat, sans-serif;
+  background: $light-grey-color;
+}
+
+[class$='__container'] {
+  max-width: 1390px;
+  padding: 0 15px;
+  width: 100%;
+  margin: 0 auto;
+}
+
+.main {
+  flex: 1 1 auto;
+  margin-top: 30px;
+}
+
+#app {
+  height: 100%;
+}

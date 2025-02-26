@@ -1,0 +1,11 @@
+@use '@/assets/style/variable' as *;
+
+.search-input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid $grey-color;
+  outline: none;
+  margin: 20px 0;
+  border-radius: 20px;
+}

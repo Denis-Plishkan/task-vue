@@ -1,0 +1,32 @@
+@use '@/assets/style/variable' as *;
+
+.product__wrapper {
+  height: calc(100vh - 100px);
+  overflow-y: auto;
+  position: relative;
+  border: 1px solid $grey-color;
+  border-radius: 20px;
+}
+
+.product-list {
+  position: absolute;
+  left: 0;
+  right: 0;
+}
+
+.fade-enter-active,
+.fade-leave-active {
+  transition: opacity 0.5s;
+}
+.fade-enter,
+.fade-leave-to {
+  opacity: 0;
+}
+
+.no-products {
+  text-align: center;
+  font-size: 18px;
+  color: $black-color;
+  margin-top: 20px;
+  font-weight: 600;
+}
